@@ -1,0 +1,18 @@
+{
+  "name": "demonstrating-ssr-issue-in-nextjs-with-office-ui-fabric-react",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "office-ui-fabric-react": "6.164.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "description": "Merge-styles requires client JS to load styles in SSR. Related: https://github.com/OfficeDev/office-ui-fabric-react/issues/616"
+}
